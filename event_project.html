@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <link rel="shortcut icon" type="image/png" href="tools/k11.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="eve.css"/>
+    <title>National day of the Kingdom of Saudi Arabia</title>
+</head>
+
+<body>
+
+    <div class="banner">
+        <img src="tools/k11.png" alt="Conference">
+        <div class="top-left">
+            <span class="title1">National day of the Kingdom of Saudi Arabia</span>
+        </div>
+        <div class="bottom-right">
+             <br>King Abdullah Sports City, Jeddah
+        </div>
+    </div>
+
+    <table class="navigation">
+        <tr>
+            <td class="navigation">
+                <a class="current" title="event Home Page" href="event_project.html">Home</a>
+            </td>
+            <td class="navigation">
+                <a title="Register for the event" href="registration.html">Registration</a>
+            </td>
+            <td class="navigation">
+                <a title="event Program" href="program.html">Program</a>
+            </td>
+            <td class="navigation">
+                <a title="Directions to the event" href="map.html">Directions</a>
+            </td>
+
+        </tr>
+    </table>
+
+    <h1>National Day Event</h1>
+    <p>
+        The National Day of the Kingdom of Saudi Arabia is a great day. On this day,
+        this great country in which we were born and lived was unified and established,
+         and it is a day in which all citizens, women and men, old and young, rejoice.
+          Because of this great limit, the Entertainment Authority held this special party for the National Day
+           in King Abdullah Sports City in the city Jeddah,
+          on the 23th of September, to celebrate the New Year of our great country.
+           We are promised a big party that includes many great artists and media
+    </p>
+
+
+<h1>Countdown to The Event</h1>
+<p id="timer"></p>
+<script>
+var countDownDate = new Date("Sep 23, 2021 00:00:00").getTime();
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("timer").innerHTML = days + " days " + hours + " hours "
+  + minutes + " min " + seconds + " s  Left to The Concert";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "The Event is Started";
+  }
+}, 1000);
+</script>
+
+    <h1>Organizers</h1>
+    <table class="sponsors">
+        <tr>
+            <td class="sponsor">
+                <a href="https://rotana.net/">
+                    <img src="tools/rotana.png" alt="rotana" style="width: 80%">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="https://www.stc.com.sa/">
+                    <img src="tools/stc.png" alt="stc" style="width: 80%">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="https://rabea.com/ar/">
+                    <img src="tools/rabe3.jpg" alt="rabeaa" style="width: 80%">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="https://www.alinma.com/">
+                    <img src="tools/inma.jpg" alt="ainma bank" style="width: 80%">
+                </a>
+            </td>
+            <td class="sponsor">
+                <a href="https://www.sanabel.sa/">
+                    <img src="tools/sn.jpg" alt="snapl alsalam" style="width: 80%">
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <table class="footer">
+        <tr>
+
+            <td class="footer">&copy; Cpit-405, FCIT, KAU</td>
+        </tr>
+    </table>
+
+    </body>
+</html>
