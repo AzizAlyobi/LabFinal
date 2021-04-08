@@ -1,0 +1,59 @@
+
+body{
+    background-color: lightgreen;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #505050;
+    text-align:left;
+    font-family:'Roboto',sans-serif;
+    font-size:1em;
+    line-height:1.5em;
+    margin: 60px auto;
+    width: 1000px;
+}
+a{color: white; text-decoration:none;}
+
+a.current:hover{color: #e82945;}
+a:hover{color: #b2132e;}
+h1{clear:left; color: green;font-size:2.00em; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif;}
+table.navigation{width:950px;}
+td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+.banner {position: relative; font-family:'Roboto Slab',serif;}
+.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
+.bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px;}
+.title{color: white}
+.title1{color: #505050; font-size:0.50em;}
+p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
+te{margin-left: 820px;}
+te1{margin-left: 890px;}
+
+button {
+  border: none;
+  color: green;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+}
+.input:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+input {
+  border: none;
+  color: green;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+}
+
+table.footer{font-size:0.875em; margin: 72px auto 12px auto; width:333px;}
+td.footer{width:auto; text-align:center; vertical-align:middle;}
